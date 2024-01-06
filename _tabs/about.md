@@ -8,7 +8,7 @@ order: 4
 
 
 Nascido Nos Estados Unidos, 
-Fluente Em Inglês E Português.
+Fluente Em Inglês E Português .
 
 Trabalho ha 15 anos, na área de informática, 
 tendo estudado computer sciencena Universidade De Las Vegas Nevada. UNLV
