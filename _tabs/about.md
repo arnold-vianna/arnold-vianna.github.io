@@ -1,5 +1,8 @@
 ---
 # the default layout is 'page'
+date: 2023/11/12 12:00:00 -500
+categories: [Windows, Cheat Sheet]
+tags: [Windows, cheat sheet]    # tags should allways be lowercase
 icon: fas fa-info-circle
 order: 4
 ---
