@@ -5,6 +5,19 @@ categories: [github, ssh]
 tags: [github, ssh]    # tags should allways be lowercase
 ---
 
+```bash
+sudo su
+ssh-keygen
+cd /root/.ssh
+chmod 600 ~/.ssh/id_ed25519.pub
+ssh-add
+eval "$(ssh-agent -s)" 
+git remote -v		
+ssh-add id_ed25519.pub		
+ssh -T GITHUB-username@github.com		
+ssh -vT git@github.com	
+```
+
 # Connecting to GitHub with SSH
 
 
