@@ -88,7 +88,7 @@ Initiates an SSH
 
 * change the user-name to your github user-name
 
-* Does not execute a command: The -T flag instructs ssh to only test the authentication
+* Does not execute a command: The -T flag instructs ssh to only test the authentication.
 
 ```bash
 ssh -T GITHUB-user-name@github.com
