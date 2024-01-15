@@ -14,7 +14,7 @@ Nascido Nos Estados Unidos,
 Fluente Em Inglês E Português .
 
 Trabalho ha 15 anos, na área de informática, 
-tendo estudado computer sciencena Universidade De Las Vegas Nevada. UNLV
+Tendo estudado computer science na Universidade De Las Vegas Nevada. UNLV
 
 Assim abrangido nas áreas,
 
