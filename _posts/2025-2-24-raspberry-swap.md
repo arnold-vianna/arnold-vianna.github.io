@@ -4,7 +4,7 @@ date: 2025/2/24 12:00:00 -500
 categories: [windows]
 tags: [memory, raspberry]    # tags should allways be lowercase
 ---
-# increase swap memory of raspberry pi 
+# increase swap memory of raspberry pi & Debian-based distros
 -----------------------------------------------------------------------------------
 * all steps 
 
@@ -36,19 +36,19 @@ free -h # check if the swap size has increased
 ```bash
 free -h
 ```
-
+----------------------------------------------------------------------------------- 
 
 * edit this file
 ```bash
 sudo nano /etc/dphys-swapfile
 ```
-
+----------------------------------------------------------------------------------- 
 
 * find this line 
 ```bash
 CONF_SWAPSIZE=200
 ```   
-
+----------------------------------------------------------------------------------- 
 
 * change from 200 into 1024
 ```bash
@@ -57,23 +57,27 @@ CONF_SWAPSIZE=200
 * Save and exit with 
 * (CTRL + X, then Y and Enter)
 
+----------------------------------------------------------------------------------- 
 
 *  Disable current swap
 ```bash
  sudo dphys-swapfile swapoff 
 ``` 
-
+----------------------------------------------------------------------------------- 
 
  * Apply new swap size
 ```bash
  sudo dphys-swapfile setup
 ``` 
-
+----------------------------------------------------------------------------------- 
 
 * Enable new swap
 ```bash
  sudo dphys-swapfile swapon
 ```
+
+----------------------------------------------------------------------------------- 
+
 * check if the swap size has increased
 ```bash
 free -h
