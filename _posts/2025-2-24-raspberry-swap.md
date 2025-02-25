@@ -27,6 +27,58 @@ sudo dphys-swapfile swapon   # Enable new swap
 
 free -h # check if the swap size has increased
 ```
+
+----------------------------------------------------------------------------------- 
+# step by step
+
+
+* check the amount of swap memory
+```bash
+free -h
+```
+
+
+* edit this file
+```bash
+sudo nano /etc/dphys-swapfile
+```
+
+
+* find this line 
+```bash
+CONF_SWAPSIZE=200
+```   
+
+
+* change from 200 into 1024
+```bash
+ CONF_SWAPSIZE=1024 
+``` 
+* Save and exit with 
+* (CTRL + X, then Y and Enter)
+
+
+*  Disable current swap
+```bash
+ sudo dphys-swapfile swapoff 
+``` 
+
+
+ * Apply new swap size
+```bash
+ sudo dphys-swapfile setup
+``` 
+
+
+* Enable new swap
+```bash
+ sudo dphys-swapfile swapon
+```
+* check if the swap size has increased
+```bash
+free -h
+```
+
 ----------------------------------------------------------------------------------- 
 # Increase Swappiness (Use Swap More Frequently)
 
