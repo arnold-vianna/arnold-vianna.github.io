@@ -1,7 +1,7 @@
 ---
 title: increase swap memory
-date: 2025/2/25 12:00:00 -500
-categories: [memory, raspberry]
+date: 2024/1/5 12:00:00 -500
+categories: [github, ssh]
 tags: [memory, raspberry]    # tags should allways be lowercase
 ---
 # increase swap memory of raspberry pi 
